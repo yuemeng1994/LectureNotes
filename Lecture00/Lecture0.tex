@@ -1,0 +1,95 @@
+\documentclass[11pt]{amsart}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{url}
+\usepackage{framed}
+ 
+
+\title{Lecture 0  - Introduction }
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\maketitle
+
+\section{Course Introduction}
+\begin{itemize}
+	\item What is Machine Learning? 
+	\item Review Syllabus: Course Topics, Grading, Office Hours, etc.
+	\item The class website is found on GitHub and Canvas
+	\begin{itemize}
+		\item Canvas: Grades will be posted here. 
+		\item GitHub: Course notes, assignments, projects, extra credit, etc.. will be posted here. 
+	\end{itemize}
+	\item This tends to be a challenging course.  Suggestions to help you do well: 
+	\begin{itemize}
+		\item Do the reading in advance and stay on top of your assignments, many topics build on each other 
+		\item Ask questions when you do not understand in class, during office hours, or using the Canvas discussion page
+		\item Participate in classroom/wiki discussion and activities
+		\item You are expected to have a computer available that has git installed, the ability to code and compile in python 3+, and run jupyter notebooks.  If attending class in person, bring this computer to class with you so you can follow along. 
+	\end{itemize}
+	\item Extra Credit: If you find (meaningful) errors or typos in the lecture notes, code, examples, etc posted in the class materials, you can report these using GitHub's ``pull request'' to get some extra credit.  See: \url{https://help.github.com/articles/about-pull-requests/}.  For errors/typos in any PDF file, be sure to correct the associated .tex for my review. 
+\end{itemize}
+\section{Reading Assignment - Due Aug 28 @ 10:40am}
+\begin{itemize}
+\item Read Introduction to Chapter 1 and Sections 1.1-1.4
+\item Review vectors, matrices and the Gaussian distribution. Some (optional) sources for reviewing this material are:
+\begin{itemize} 
+\item Chapters 1 \& 2 of Strang's Introduction to Linear Algebra text 
+\begin{itemize}
+	\item book website: \url{http://math.mit.edu/~gs/linearalgebra/}
+	\item associated video lectures: \\\url{https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/} \end{itemize}
+\item Appendix B from Bishop's Pattern Recognition and Machine Learning text.  
+\end{itemize}
+\end{itemize}
+
+\section{Homework 0 - Due Aug 26 @ 11:59pm}
+\begin{enumerate}
+\item If you do not already have them, install (1) an editor, (2) Python 3+, (3) the NumPy, SciPy, and Matplotlib packages and (4) Jupyter notebooks on the computer(s) you will be bringing to class and using to complete your assignments.
+\begin{itemize}
+\item You are welcome to use whatever editor you would like.  There are many options. See: \url{https://wiki.python.org/moin/PythonEditors}  Lately, I have been using SublimeText (which is what I will be using in class).
+\item An easy way to install Python 3+ and all required packages is to install Anaconda: \url{https://www.continuum.io/downloads} 
+
+\end{itemize}
+\item If you are not familiar with Python 3, go through one (or a few) introductory tutorials:
+\begin{itemize}
+\item Dive into Python 3: \url{http://www.diveintopython3.net}
+\item A list of many beginner tutorials: \url{https://wiki.python.org/moin/BeginnersGuide/Programmers}
+\item For those familiar with Matlab, see: \url{http://scipy.github.io/old-wiki/pages/NumPy_for_Matlab_Users.html}
+\end{itemize}
+\item If you do not have one, create a github account. 
+\begin{itemize}
+\item Please set up a username that clearly indicates who you are (e.g., my username is alinazare)  
+\item Check out: \url{https://education.github.com/pack}
+\end{itemize}
+\item If you are not familiar with git, complete one (or a few) introductory tutorials:
+\begin{itemize}
+\item Git bootcamp: \url{https://help.github.com/categories/bootcamp/}
+\item Tutorials: \url{https://www.atlassian.com/git/tutorials/}
+\item Interactive Introduction: \url{https://try.github.io/}
+\end{itemize}
+\item Follow the assignment link for the Homework00 repository.  After accepting the invitation, clone the repository to your local machine. 
+
+\item Code up a python program that prints the following:
+
+\begin{itemize}
+\item My name is [your name].
+\item I am a [undergraduate/masters/PhD] student majoring in [your major] in the Department of [your department].
+\item I have [no/some/extensive] programming experience in general.
+\item I have [no/some/extensive] python programming experience.
+\item I have [no/some/extensive] experience with using version control software. 
+\item I have [no/some/extensive] experience with git.
+\item I have [no/some/extensive] experience in machine learning.
+\item My github username is [username].
+\item I am excited to learn the following in this class: [complete with your response]
+\end{itemize}
+\item Starter code has been provided for you in your homework repository.  You only need to edit, verify that it runs properly, and push back your submission. 
+\item Submit this through GitHub by pushing your completed code back to the github assignment repository. 
+\item Double check your submission using Travis CI and the provided test script. See www.travis-ci.com
+\end{enumerate}
+
+
+\end{document}  
